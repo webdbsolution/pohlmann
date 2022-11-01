@@ -1,0 +1,679 @@
+@font-face {
+    font-family: "WigendaTypewrite";
+    src: url(fonts/wigenda/stylesheet.css);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    max-height: 774px;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+.menu {
+    margin: auto;
+    width: 50%;
+    padding: 2% 0 10% 0;
+    background-color: #471A2D;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.menu-icon {
+    width: 5%;
+    padding-block: 10%;
+}
+
+.disabled {
+    display: none;
+}
+
+.menu-oculto {
+    background-color: #471a2d9f;
+    width: 100%;
+    margin-left: -100px;
+}
+
+.x {
+    float: right;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 2% 8%;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo-navbar {
+    width: 50%;
+    padding: 10% 0;
+    margin-top: -10%;
+    background-color: #471A2D;
+    text-align: center;
+}
+
+.logo-nav {
+    width: 80%;
+}
+
+.nav {
+    width: 40%;
+    margin: auto;
+    border-left: 1px solid #E5AF03;
+}
+
+.nav-ul {
+    list-style: none;
+}
+
+.nav-ul li {
+    padding: 3%;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-ul li:hover {
+    list-style-image: url(imagens/icones/icone-menu.png);
+    transition: 0.4s all;
+}
+
+.contato-menu {
+    margin: 7%;
+    margin-top: 15%;
+    padding: 2% 0px 3% 5%;
+    width: 40%;
+    color: #fff;
+    line-height: 1.4em;
+}
+
+.contato-menu p,
+.contato-menu p span {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.contato-menu p span {
+    padding-top: 12%;
+    border-top: 1px solid #f1f1f1be;
+}
+
+.contato-menu nav a img {
+    width: 18%;
+}
+
+.quem-somos {
+    background-image: url(imagens/quem-somos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.quem-mask {
+    width: 100%;
+    height: 100%;
+    padding: 200px 0px 110px 0px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.cervejaria {
+    display: flex;
+    color: #fff;
+    background-image: url(imagens/quem\ somos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+}
+
+.cervejaria-h1 {
+    width: 50%;
+    text-align: center;
+    font-size: 3em;
+    font-family: "WigendaTypewrite";
+    font-weight: 900;
+}
+
+.cervejaria-p {
+    width: 50%;
+    font-size: 1.1em;
+    text-align: justify;
+    font-family: "WigendaTypewrite";
+}
+
+.cervejas {
+    background-image: url(imagens/mural.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.cervejas-artesanais {
+    background-image: url(imagens/cerveja-artesanal-back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 90%;
+    margin: auto;
+    height: 71vw;
+}
+
+.cerveja-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 41%;
+    height: 63%;
+}
+
+.img-1 {
+    position: absolute;
+    left: 2%;
+    top: 117vw;
+    z-index: 138;
+    transform: rotate(-8deg);
+}
+
+.img-2 {
+    position: absolute;
+    left: 38%;
+    top: 127vw;
+    z-index: 139;
+    transform: rotate(3deg);
+}
+
+.img-3 {
+    position: absolute;
+    left: 10.5%;
+    top: 141vw;
+    z-index: 140;
+    transform: rotate(-3deg);
+}
+
+.amarelo {
+    background-color: #E5AF03;
+    color: #000;
+    padding: 1%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 0.833;
+    font-family: "WigendaTypewrite";
+}
+
+.lenha {
+    position: absolute;
+    left: 46%;
+    top: 121vw;
+    width: 32%;
+    z-index: 144;
+}
+
+.artesanal {
+    position: absolute;
+    left: 2%;
+    top: 139vw;
+    width: 35%;
+    z-index: 145;
+}
+
+.estilo {
+    position: absolute;
+    left: 28%;
+    top: 162vw;
+    width: 53%;
+    z-index: 147;
+}
+
+.logo-cervejas {
+    background-image: url(imagens/logo-cervejas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    position: absolute;
+    left: 69%;
+    top: 114vw;
+    width: 31%;
+    height: 63vw;
+    z-index: 143;
+}
+
+.nossas-cervejas {
+    background-image: url(imagens/nossas-cervejas-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.nossas-cervejas h1 {
+    padding-top: 12%;
+    width: 55%;
+    margin: auto;
+    color: #E5AF03;
+    font-family: "WigendaTypewrite";
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.5em;
+    position: relative;
+    z-index: 10;
+    line-height: 0.5;
+    text-shadow: 0px 10px 9px rgba(83, 83, 83, 0.35);
+}
+
+.nossas-cervejas p {
+    color: #fff;
+    font-family: "WigendaTypewrite";
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 700;
+    text-shadow: 0px 5px 4.75px rgba(83, 83, 83, 0.35);
+}
+
+.estilos {
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    padding-top: 5%;
+}
+
+.cervejinha {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 45%;
+    align-items: center;
+}
+
+.descricao h2 {
+    color: #fff;
+    margin-top: -15%;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-family: "WigendaTypewrite";
+    font-weight: 900;
+}
+
+.descricao p {
+    font-size: 1em;
+    width: 50%;
+    text-align: left;
+}
+
+.red {
+    margin-top: 10%;
+}
+
+.red .descricao, .red .descricao p {
+    text-align: right;
+    float: right;
+}
+
+.cervejoes {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ipa {
+    margin-left: 10%;
+    margin-top: -10%;
+}
+
+.stout .descricao, .stout .descricao p {
+    text-align: right;
+    float: right;
+}
+
+.weiss {
+    margin-top: -10%;
+}
+
+.aromas {
+    width: 100%;
+    background-image: url(imagens/aromas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.aromas-mask {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    padding: 200px 0px 110px 0px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.drinks-e-pratos {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: -2%;
+    padding-bottom: 10%;
+    align-items: center;
+}
+
+.drinks-e-pratos-h1 {
+    width: 50%;
+    background-color: #E5AF03;
+    padding: 0.5% 3%; 
+    margin: auto;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "WigendaTypewrite";
+    font-weight: 900;
+}
+
+.drinks-e-pratos-p {
+    width: 50%;
+    margin: auto;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 700;
+    padding: 2%;
+    font-family: "WigendaTypewrite";
+}
+
+.drinks {
+    height: 109%;
+    width: 50%;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -45%;
+}
+
+.pratos {
+    height: 109%;
+    width: 50%;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 50%;
+}
+
+.drinks-menu {
+    width: 50%;
+    margin-left: 42.55%;
+    background-color: #471A2D;
+    padding-block: 5%;
+}
+
+.drinks-menu p {
+    background-color: #E5AF03;
+    width: 96%;
+    padding: 2%;
+    font-size: 1.5em;
+    font-family: "WigendaTypewrite";
+    font-weight: 700;
+    margin-top: -22%;
+}
+
+.drinks-menu nav {
+    margin-block: 20%;
+}
+
+.drinks-nav {
+    width: 80%;
+    margin: auto;
+    margin-right: 0;
+    border-left: 1px solid #E5AF03;
+    padding-block: 10%;
+}
+
+.drinks-nav-ul {
+    list-style: none;
+    padding-block: 10%;
+}
+
+.drinks-nav-ul li {
+    padding: 3%;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-family: "WigendaTypewrite";
+}
+
+.drinks-nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.drinks-nav-ul li:hover {
+    list-style-image: url(imagens/icones/icone-menu.png);
+    transition: 0.4s all;
+}
+
+.xis1 {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 2% 20%;
+    cursor: pointer;
+    margin-top: -15%;
+}
+
+
+.xis2 {
+    color: #fff;
+    font-size: 1.5em;
+    float: right;
+    padding: 2% 20%;
+    cursor: pointer;
+    margin-top: -15%;
+}
+
+.pratos-menu {
+    width: 50%;
+    background-color: #471A2D;
+    padding-block: 5%;
+    margin-left: 100px;
+}
+
+.pratos-menu p {
+    background-color: #E5AF03;
+    width: 100%;
+    padding: 2%;
+    padding-right: 5%;
+    font-size: 1.5em;
+    font-family: "WigendaTypewrite";
+    font-weight: 700;
+    text-align: end;
+    margin-top: -22%;
+}
+
+.pratos-menu nav {
+    margin-block: 20%;
+}
+
+.pratos-nav {
+    width: 75%;
+    margin: auto;
+    margin-left: 0;
+    border-right: 1px solid #E5AF03;
+    padding-block: 10%;
+    padding-right: 5.4%;
+}
+
+.pratos-nav-ul {
+    list-style: none;
+    padding-block: 10%;
+    padding-right: 2%;
+}
+
+.pratos-nav-ul li {
+    padding: 3%;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-family: "WigendaTypewrite";
+    text-align: end;
+}
+
+.pratos-nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.pratos-nav-ul li:hover::after {
+    content: url(imagens/icones/icone-menu.png);
+    transition: 0.4s all;
+    padding: 2%;
+}
+
+.instagram {
+    background-image: url(imagens/insta-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    margin-top: -2%;
+}
+
+.logo-branco-grande {
+    background-image: url(imagens/logo-branco-grande.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.arroba{
+    background-image: url(imagens/@cervejariapohlmann.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100%;
+    margin: auto;
+}
+
+.frase {
+    padding-top: 200px;
+    font-family: "WigendaTypewrite";
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.insta-carrosel {
+    padding-top: 5%;
+    width: 95% !important;
+    margin: auto;
+}
+
+.segue {
+    width: 50%;
+    margin-left: 50%;
+    padding: 1% 0;
+    padding-bottom: 5%;
+}
+
+footer {
+    background-image: url(imagens/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer-mask {
+    background-color: rgba(0, 0, 0, 0.61);
+    width: 100%;
+    height: 100%;
+    padding: 200px 0;
+    display: flex;
+}
+
+.logo {
+    width: 50%;
+    text-align: center;
+}
+
+.logo img { 
+    width: 60%;
+    margin: auto;
+}
+
+.infos {
+    width: 50%;
+}
+
+.infos h1 {
+    color: #E5AF03;
+    padding: 0.5% 3%; 
+    margin: auto;
+    margin-top: 10%;
+    font-size: 2.5em;
+    font-family: "WigendaTypewrite";
+    font-weight: 900;
+}
+
+.contato-footer {
+    margin-top: 15%;
+    padding: 0.5% 3%;
+    width: 40%;
+    color: #fff;
+    line-height: 1.4em;
+}
+
+.contato-footer p,
+.contato-footer p span {
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.contato-footer p span {
+    padding-top: 12%;
+    border-top: 1px solid #f1f1f1be;
+}
+
+.contato-footer nav a img {
+    width: 18%;
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'WigendaTypewrite';
+    src: url('WigendaTypewrite-Heavy.eot');
+    src: local('WigendaTypewrite-Heavy'),
+        url('WigendaTypewrite-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('WigendaTypewrite-Heavy.woff2') format('woff2'),
+        url('WigendaTypewrite-Heavy.woff') format('woff'),
+        url('WigendaTypewrite-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WigendaTypewrite';
+    src: url('WigendaTypewrite-Bold.eot');
+    src: local('WigendaTypewrite-Bold'),
+        url('WigendaTypewrite-Bold.eot?#iefix') format('embedded-opentype'),
+        url('WigendaTypewrite-Bold.woff2') format('woff2'),
+        url('WigendaTypewrite-Bold.woff') format('woff'),
+        url('WigendaTypewrite-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WigendaTypewrite';
+    src: url('WigendaTypewrite.eot');
+    src: local('WigendaTypewrite'),
+        url('WigendaTypewrite.eot?#iefix') format('embedded-opentype'),
+        url('WigendaTypewrite.woff2') format('woff2'),
+        url('WigendaTypewrite.woff') format('woff'),
+        url('WigendaTypewrite.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WigendaTypewrite';
+    src: url('WigendaTypewrite-SemiBold.eot');
+    src: local('WigendaTypewrite-SemiBold'),
+        url('WigendaTypewrite-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('WigendaTypewrite-SemiBold.woff2') format('woff2'),
+        url('WigendaTypewrite-SemiBold.woff') format('woff'),
+        url('WigendaTypewrite-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
