@@ -191,39 +191,63 @@ body {
     width: 90%;
     margin: auto;
     height: 71vw;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cerveja-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    width: 41%;
-    height: 63%;
+    width: 45%;
+    height: 42%;
 }
 
-.img-1 {
+/* .img-1 {
     position: absolute;
     left: 2%;
     top: 117vw;
     z-index: 138;
     transform: rotate(-8deg);
-}
+} */
 
+.img-1 {
+    margin-left: -3%;
+    margin-top: 7%;
+    z-index: 138;
+    transform: rotate(-8deg);
+}
+/* 
 .img-2 {
     position: absolute;
     left: 38%;
     top: 127vw;
     z-index: 139;
     transform: rotate(3deg);
+} */
+
+.img-2 {
+    margin-left: -5%;
+    margin-top: 18%;
+    z-index: 139;
+    transform: rotate(3deg);
 }
 
-.img-3 {
+/* .img-3 {
     position: absolute;
     left: 10.5%;
     top: 141vw;
     z-index: 140;
     transform: rotate(-3deg);
+} */
+
+.img-3 {
+    margin-left: 6.5%;
+    margin-top: -30%;
+    z-index: 140;
+    transform: rotate(-3deg);
 }
+
 
 .amarelo {
     background-color: #E5AF03;
@@ -295,7 +319,7 @@ body {
     position: relative;
     z-index: 10;
     line-height: 0.5;
-    text-shadow: 0px 10px 9px rgba(83, 83, 83, 0.35);
+    text-shadow: 0px 10px 9px rgba(0, 0, 0, 0.418);
 }
 
 .nossas-cervejas p {
@@ -305,7 +329,7 @@ body {
     font-size: 1.5em;
     line-height: 1.5;
     font-weight: 700;
-    text-shadow: 0px 5px 4.75px rgba(83, 83, 83, 0.35);
+    text-shadow: 0px 5px 4.75px rgba(0, 0, 0, 0.418);
 }
 
 .estilos {
@@ -331,6 +355,7 @@ body {
     font-size: 2.5em;
     font-family: "WigendaTypewrite";
     font-weight: 900;
+    text-shadow: 0px 10px 9px rgba(0, 0, 0, 0.418);
 }
 
 .descricao p {
@@ -396,12 +421,12 @@ body {
 }
 
 .drinks-e-pratos-h1 {
-    width: 50%;
+    width: 70%;
     background-color: #E5AF03;
     padding: 0.5% 3%; 
     margin: auto;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.8em;
     font-family: "WigendaTypewrite";
     font-weight: 900;
 }
@@ -452,7 +477,7 @@ body {
 }
 
 .drinks-menu nav {
-    margin-block: 20%;
+    margin-block: 15%;
 }
 
 .drinks-nav {
@@ -524,7 +549,7 @@ body {
 }
 
 .pratos-menu nav {
-    margin-block: 20%;
+    margin-block: 15%;
 }
 
 .pratos-nav {
