@@ -305,7 +305,7 @@
     }
 
     .descricao {
-        margin-left: -5%;
+        margin-left: 1%;
     }
 
     .descricao h2 {
@@ -583,5 +583,11 @@
 
     .frase-aromas {
         display: none;
+    }
+}
+
+@media (max-width: 401px) {
+    .quem-somos {
+        margin-top: -7%;
     }
 }
