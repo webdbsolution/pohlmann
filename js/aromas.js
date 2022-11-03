@@ -5,6 +5,7 @@ const xis1 = document.querySelector(".xis1")
 const xis2 = document.querySelector(".xis2")
 const drinksMenu = document.querySelector(".drinks-menu")
 const pratosMenu = document.querySelector(".pratos-menu")
+const mobileBtns = document.querySelectorAll(".mobile-button")
 
 function exibeDrinks(e, menu) {
     drinksMask.classList.add("disabled")
@@ -31,3 +32,7 @@ xis1.addEventListener("click", (e) => {
 xis2.addEventListener("click", (e) => {
     fecharDrinks(e, pratosMenu)
 })
+
+for (button of mobileBtns) {
+    button.classList.contains("bebes") ? button.addEventListener("click",  (e) => exibeDrinks(e, drinksMenu)) : button.addEventListener("click",  (e) => exibeDrinks(e, pratosMenu))
+}
