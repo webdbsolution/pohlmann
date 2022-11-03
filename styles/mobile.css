@@ -334,10 +334,6 @@
         float: right;
     }
 
-    .ipa {
-        margin-left: 10%;
-    }
-
     .stout .descricao,
     .stout .descricao p {
         text-align: right;
@@ -584,5 +580,9 @@
 
     .contato-footer nav a img {
         width: 10%;
+    }
+
+    .frase-aromas {
+        display: none;
     }
 }
