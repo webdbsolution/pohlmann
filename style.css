@@ -683,7 +683,19 @@ body {
         width: 18%;
     }
 
-    .mobile-button {
-        display: none;
+    .buttons {
+        display: flex;
+    }
+
+    .comes {
+        margin-bottom: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .bebes {
+        margin-bottom: 0;
+        padding: 0;
+        cursor: pointer;
     }
 }
