@@ -440,8 +440,8 @@ body {
 
     .drinks-menu {
         width: 50%;
-        margin-left: 42.55%;
-        margin-right: -100px;
+        margin-left: auto;
+        margin-right: 100px;
         background-color: #471A2D;
         padding-block: 5%;
     }
