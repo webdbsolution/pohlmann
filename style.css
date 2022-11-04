@@ -37,6 +37,10 @@ body {
         z-index: 2;
     }
 
+    .logo-header {
+        width: 100%;
+    }
+
     .menu-icon {
         width: 5%;
         padding-block: 10%;
@@ -319,6 +323,7 @@ body {
         background-size: contain;
         display: flex;
         width: 45%;
+        height: 25%;
         align-items: center;
     }
 
